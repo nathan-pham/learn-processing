@@ -1,8 +1,8 @@
-void mult(float x, float y) {
-  float r = x * y;
-  println(r);
+float mult(float a, float b) {
+  float r = a * b;
+  return r;
 }
 
 void setup() {
-  mult(5.2, 9.0);
+  println(mult(5.2, 9.0));
 }
